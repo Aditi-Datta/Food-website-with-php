@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+} 
+
+.navbar-tag a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(224, 67, 19, 0.925);
+}
+
+.navbar-tag a:hover{
+    color: green;
+}
+
+
+.top-section{
+    background-color: #e4bc4e;
+}
+.top-section-about-us{
+    background-color: rgba(180, 117, 117, 0.829);
+}
+
+.container{
+    display: grid;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.food__container {
+    grid-template-columns: repeat( 3, 1fr );
+    grid-column-gap: 30px;
+}
+
+.food img {
+    height: 320px;
+}
+
+.food h3 {
+    font-size: 28px;
+    color: #18191F;
+    line-height: 40px;
+    margin: 10px 0 10px 0;
+    text-transform: capitalize;
+}
+
+.food p {
+    margin: 0;
+}
+
+.food {
+    box-shadow: 10px 10px 100px yellowgreen;
+    padding: 15px;
+    margin: 30px 0;
+}
+.section--padding{
+    padding: 80px 0;
+}
+
+#footer-align{
+    text-align: center;
+    background-color: black;
+    color:gray;
+}
+.orange-color{
+    color: orange;
+}
+/* Contact-section css */
+#contact-section{
+    background-color: lightblue;
+} 
+.btn-submit{
+
+    /* background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%); */
+    background-color:navy;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+
+}
+
+/* About-us section  */
+.food-review{
+    box-shadow: 10px 10px 100px rgb(207, 209, 201);
+    padding: 15px;
+    margin: 30px 0;
+}
+.food-review img{
+    height: 320px;
+}
+
+
+/* For Responsive */
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) { 
+    .container{
+        width: 960px;
+    }
+    .food img {
+        height: 280px;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 768px;
+    }
+    .food__container {
+        grid-template-columns: repeat( 2, 1fr );
+    }  
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .food__container{
+        grid-template-columns: repeat( 1, 1fr );
+        grid-column-gap: 0;
+    }
+    .container {
+        width: 100%;
+    }
+    .food {
+        margin: 20px 40px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {  
+    .food__container {
+        grid-template-columns: repeat( 1, 1fr );
+        grid-column-gap: 0;
+    }
+    .container {
+        width: 100%;
+    }
+    .food {
+        margin: 20px 40px;
+    }
+}
+   

@@ -1,0 +1,46 @@
+
+        body {
+            background-image: url(images/sky.jpg);
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        form {
+            text-align: center;
+            /* background-color: rgb(129, 165, 165); */
+            /* background-color: rgb(139, 207, 207); */
+            /* margin-top: 150px; */
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px;
+            border: 2px solid black;
+            border-radius: 25px;
+            box-shadow: blueviolet;
+            font-weight: 700;
+            height: 300px;
+        }
+
+        .form-control {
+            border: 1px solid black;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            padding: 100px 15px 25px ;
+
+        }
+
+        #sub-btn {
+            background-color: rgba(6, 37, 2, 0.897) ;
+            margin: 10px 0px 15px;
+        }
+
+        #link {
+            color: rgba(85, 57, 6, 0.863);
+        }
+
+        #sub-btn:hover {
+            cursor: pointer;
+            background-color:  rgb(8, 138, 47);
+        }
+   
